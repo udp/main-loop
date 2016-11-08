@@ -17,8 +17,7 @@
     "email": "raynos2@gmail.com"
   },
   "dependencies": {
-    "error": "^4.1.1",
-    "raf": "^2.0.1"
+    "error": "^4.1.1"
   },
   "devDependencies": {
     "global": "^3.0.0",

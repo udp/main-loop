@@ -1,4 +1,3 @@
-var raf = require("raf")
 var TypedError = require("error/typed")
 
 var InvalidUpdateInRender = TypedError({
@@ -48,7 +47,7 @@ function main(initialState, view, opts) {
 
         if (currentState === null && !redrawScheduled) {
             redrawScheduled = true
-            raf(redraw)
+            requestAnimationFrame(redraw)
         }
 
         currentState = state
